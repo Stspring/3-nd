@@ -14,15 +14,15 @@
         <div class="container header-flex">
             <img src="assets/logo.svg" alt="Logo">
             <div class="header-links">
-                <a class="header-link" href="#">Репродукции</a>
-                <a class="header-link" href="#">Новинки</a>
-                <a class="header-link" href="#">О нас</a>
+                <a class="header-link" href="#Репродукции">Репродукции</a>
+                <a class="header-link" href="#Новинки">Новинки</a>
+                <a class="header-link" href="#Наша-команда">О нас</a>
                 <button class="header-button"><img src="assets/buy.svg" alt="Buy icon"></button>
             </div>
         </div>
     </header>
     <main>
-        <section>
+        <section id="Репродукции">
             <div class="container about">
                 <img src="assets/bird.jpg" alt="Bird">
                 <div class="about-right">
@@ -44,7 +44,7 @@
                     <div class="works-buttons">
                         <button class="works-button-active">Франция</button>
                         <button class="works-button works-second-button">Германия</button>
-                        <button class="works-button">Англия</button>s
+                        <button class="works-button">Англия</button>
                     </div>
                 </div>
                 <div class="work-down">
@@ -56,9 +56,6 @@
                         <p class="work-price">14 500 руб</p>
                         <button class="work-buy">В корзину</button>
                     </div>
-                </div>
-
-                <div class="work-down">
                     <div class="work-example">
                         <img class="work-img" src="assets/woman_d.jpg" alt="womanD">
                         <p class="work-artist">Анри Селин</p>
@@ -67,9 +64,6 @@
                         <p class="work-price">16 500 руб</p>
                         <button class="work-buy">В корзину</button>
                     </div>
-                </div>
-
-                <div class="work-down">
                     <div class="work-example">
                         <img class="work-img" src="assets/Dupon.jpg" alt="Dupon">
                         <p class="work-artist">Франсуа Дюпон</p>
@@ -78,9 +72,6 @@
                         <p class="work-price">20 000 руб</p>
                         <button class="work-buy">В корзину</button>
                     </div>
-                </div>
-
-                <div class="work-down">
                     <div class="work-example">
                         <img class="work-img" src="assets/woman_r.jpg" alt="womanR">
                         <p class="work-artist">Луи Детуш</p>
@@ -88,10 +79,7 @@
                         <p class="work-type">Бумага, акрил (50х80) </p>
                         <p class="work-price">12 000 руб</p>
                         <button class="work-buy">В корзину</button>
-                    </div>
-                </div>
-
-                <div class="work-down">
+                    </div>   
                     <div class="work-example">
                         <img class="work-img" src="assets/birds.jpg" alt="birds">
                         <p class="work-artist">Франсуа Дюпон</p>
@@ -100,10 +88,8 @@
                         <p class="work-price">22 500 руб</p>
                         <button class="work-buy">В корзину</button>
                     </div>
-                </div>
 
-                <div class="work-down">
-                    <div class="work-example">
+                     <div class="work-example">
                         <img class="work-img" src="assets/fish.jpg" alt="fish">
                         <p class="work-artist">Пьер Моранж</p>
                         <p class="work-name">Пейзаж с рыбой</p>
@@ -113,29 +99,35 @@
                     </div>
                 </div>
            </div> 
-
-           <!-- _______________ -->
         </section>
-        <section class="new-collection">
-            <div class="container">
-                <div class="">
 
+        <section class = "new-collection" id="Новинки">
+            <div class = 'container'>
+                <div class = "new-collection-title">
+                    <img src = "assets/Star.svg" alt = "star icon">
+                    <h2>Новая коллекция французских авторов</h2>
                 </div>
-
-
-
-            </div>  
+                <div class = "new-collection-text">
+                    <p>Сложно сказать, почему акционеры крупнейших компаний
+                         призывают нас к новым свершениям, которые, в свою очередь,
+                          должны быть заблокированы в рамках своих собственных рациональных 
+                          ограничений. </p>
+                    <p>Принимая во внимание показатели успешности, 
+                        граница обучения кадров предопределяет высокую 
+                        востребованность направлений прогрессивного развития.</p>
+                </div>
+                <button class = "new-collection-button">Ознакомиться</button>
+            </div>
         </section>
-
-
-         <section class="fourth_section">
+        <section id="Наша-команда">
             <div class="container team">
-                <img src="assets/hand.jpg" alt="Hand">
-                <div class="team-text">
-                    <h2 class="     werftgyhuj    ">Наша команда</h2>
-                    <p>Значимость этих проблем настолько очевидна, что базовый вектор развития позволяет оценить
-                        значение экспериментов, поражающих по своей масштабности и грандиозности. Мы вынуждены
-                        отталкиваться от того, что консультация с широким активом.
+                <img src = "assets/hand.jpg" alt = "picture">
+                <div class = "team-text">
+                    <h2 class = "works-up-title">Наша команда</h2>
+                    <p>Значимость этих проблем настолько очевидна,
+                        что базовый вектор развития позволяет оценить значение
+                        экспериментов, поражающих по своей масштабности и грандиозности.
+                        Мы вынуждены отталкиваться от того, что консультация с широким активом.
                     </p>
                     <div class="team-image">
                         <img src="assets/Ellipse 30.jpg" alt="1-st_img">
@@ -145,9 +137,51 @@
                 </div>
             </div>
         </section>
-
-
-
     </main>
+
+
+    <footer>
+        <div class="container footer-flex">
+                <div class="contacts">
+                    <img src="assets/logo.svg" alt="Logo">
+                    <div class="contacts">
+                        <p class="contacs-phone">+7 (999) 543-54-54</p>
+                        <p>Мастерская</p>
+                    </div>    
+                </div>
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <div class="footer-link">
+                            <h3>Репродукции</h3>
+                            <a href="#">Франция</a>
+                            <a href="#">Германия</a>
+                            <a href="#">Англия</a>
+                        </div>
+                        <div class="footer-link">
+                            <h3>Новинки</h3>
+                            <a href="#">2021</a>
+                            <a href="#">2020</a>
+                        </div>
+                        <div class="footer-link">
+                            <h3>О нас</h3>
+                            <a href="#">Художники</a>
+                            <a href="#">Менеджеры</a>
+                        </div>
+                    </div>            
+                <div>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/?locale=ru_RU"target="_blank"><img src="assets/fbook.svg" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/" class="social-second" target="_blank"><img src="assets/Inst.svg" alt="Instagram"></a>
+                    <a href="https://www.youtube.com/?app=desktop&hl=ru"target="_blank"><img src="assets/YouT.svg" alt="YouTube"></a>
+                </div>
+                <div class="footer-into">
+                    <p>Ink. House ®</p>
+                    <p>All rights reserved</p>
+                </div>
+                </div>    
+            </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

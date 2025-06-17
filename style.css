@@ -3,7 +3,8 @@
     --font: "Raleway", sans-serif;
     --font-size-twenty: 20px;
     --black-color: #2C2D35;
-    --green-color: #598D66;
+    --green-color: #598D66; 
+    --dark-green-color: #376B44;
     --grey-color: #86928B;
     --font-size-eighteen: 18px;
     --font-weight-medium: 500;
@@ -14,6 +15,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body, button {
@@ -52,15 +54,33 @@ body, button {
     .new-collection-text p{
         width: 540px;
     }
-    .new-collection-botton{
+    .new-collection-button{
         padding: 21px 60px;
     }
+    .team{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     .team-text{
-        width: 635px;
-        /* ------------- */
+        margin-top: 45px;
+        width: 635px; ;
     }
     .team-text p{
-        margin: 20px;
+        margin: 20px 0;
+    }
+    .footer-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-right{
+        display: flex;
+    }
+    .footer-links{
+        margin-right: 250px;
+    }
+    .contacs-phone{
+        margin: 41px 0 8px 0;
     }
 }
 
@@ -82,6 +102,7 @@ body, button {
 .header-button {
     border: none;
     background: none;
+    cursor: pointer;
 }
 .header-links {
     display: flex;
@@ -110,6 +131,11 @@ body, button {
     border: 1px solid var(--green-color);
     background: none;
     font-weight: var(--font-weight-medium);
+    cursor: pointer;
+}
+.about-button:hover{
+    background-color: var(--dark-green-color);
+    color: var(--white-color);
 }
 
 .works-up {
@@ -126,9 +152,10 @@ body, button {
     color: var(--white-color);
     font-size: var(--font-size-twenty);
     font-weight: var(--font-weight-medium);
-    background-color: var(--green-color);
+    background-color: var(--dark-green-color);
     border: none;
     border-radius: 20px;
+    cursor: pointer;
 }
 .works-button {
     padding: 10px 20px;
@@ -138,6 +165,11 @@ body, button {
     background-color: var(--medium-green-color);
     border: none;
     border-radius: 20px;
+    cursor: pointer;
+}
+.works-button:hover{
+    background-color: var(--dark-green-color);
+    color:  var(--white-color);
 }
 .works-second-button {
     margin: 0 32px;
@@ -146,12 +178,12 @@ body, button {
 .work-example {
     background-color: var(--light-green-color);
     padding: 20px 20px 30px 20px;
+    margin-bottom: 30px;
 }
 .work-artist {
     font-weight: var(--font-weight-medium);
     font-size: var(--font-size-eighteen);
     color: var(--grey-color);
-    
     width: fit-content;
 }
 .work-name {
@@ -181,21 +213,30 @@ body, button {
     padding: 20px 100px;
     background: none;
     margin-top: 20px;
+    cursor: pointer;
+}
+.work-buy:hover{
+    background-color: var(--dark-green-color);
+    color:  var(--white-color);
+    border: none;
+}
+.work-down{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
-
-/* ________________ */
-
 .new-collection{
-    background-image: url(assets/pic_background.jpg);
-    padding: 70px 0;
+    background-image: url(assets/pic_background\ \(1\).jpg);
     color: var(--white-color);
-    background-repeat: repeat-x;
+    padding: 70px 0;
+    background-repeat: repeat-x ;
 }
 .new-collection-title{
     display: flex;
     align-items: center;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
 }
 .new-collection-title h2{
     font-weight: var(--font-weight-medium);
@@ -207,26 +248,70 @@ body, button {
     margin-bottom: 20px;
     line-height: 150%;
 }
-.new-collection-botton{
-    margin-top: 30px;
+.new-collection-button{
+    margin-top: 40px;
     background-color: #EEDB6D;
     border: none;
     font-size: var(--font-size-twenty);
-    font-weight: 500;
+    font-weight: var(--font-weight-medium);
+    cursor: pointer;
 }
+.new-collection-button:hover{
+    background-color: #e7c81c;
+    color: var(--white-color);
+}
+
 .team{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin: 70px auto;
 }
 .team-text p{
     font-size: var(--font-size-eighteen);
     font-weight: var(--font-weight-medium);
-
+    color: var(--black-color);
+    line-height: 150%;
 }
-
 .team-image img:nth-child(2){
     margin: 0 30px;
+}
 
+
+
+
+footer{
+    background-color: var(--light-green-color);
+    padding: 23px 0;
+    font-size: var(--font-size-eighteen);
+    color: var(--grey-color);
+}
+.contacs-phone{
+    font-size: var(--font-size-twenty);
+    color: var(--black-color);
+}
+.footer-links{
+    display: flex;
+}
+.footer-link h3{
+    color: var(--black-color) ;
+    font-size: var(--font-size-twenty) ;
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 6px;
+}
+.footer-link a{
+    text-decoration: none;
+    color: var(--grey-color);
+    display: block;
+    margin-bottom: 6px;
+}
+.footer-link:nth-child(2){
+    margin: 0 60px;
+}
+.footer-social{
+    margin-bottom: 10px;
+}
+.social-second{
+    margin: 0 23px;
+}
+.footer-info{
+    font-size: 12px;
+    margin-bottom: 6px;
 }
