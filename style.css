@@ -38,6 +38,9 @@ body, button {
     .about-title {
         font-size: 60px;
     }
+    .about-text{
+        margin: 20px 0 60px 0;
+    }
     .about-button {
         padding: 21px 60px;
     }
@@ -82,6 +85,12 @@ body, button {
     .contacs-phone{
         margin: 41px 0 8px 0;
     }
+    .work-buy{
+        padding: 20px 100px;
+    }
+    .new-collection{
+        background-image: url(assets/pic_background\ \(1\).jpg);
+    }
 }
 
 .header {
@@ -122,7 +131,7 @@ body, button {
 .about-text {
     color: var(--grey-color);
     font-size: var(--font-size-eighteen);
-    margin: 20px 0 60px 0;
+
 }
 .about-button {
     font-family: var(--font);
@@ -210,7 +219,7 @@ body, button {
     font-weight: var(--font-weight-medium);
     font-size: var(--font-size-twenty);
     color: var(--green-color);
-    padding: 20px 100px;
+
     background: none;
     margin-top: 20px;
     cursor: pointer;
@@ -228,7 +237,6 @@ body, button {
 }
 
 .new-collection{
-    background-image: url(assets/pic_background\ \(1\).jpg);
     color: var(--white-color);
     padding: 70px 0;
     background-repeat: repeat-x ;
@@ -274,13 +282,11 @@ body, button {
     margin: 0 30px;
 }
 
-
-
-
 footer{
     background-color: var(--light-green-color);
     padding: 23px 0;
     font-size: var(--font-size-eighteen);
+    font-weight: var(--font-weight-medium);
     color: var(--grey-color);
 }
 .contacs-phone{
@@ -311,7 +317,89 @@ footer{
 .social-second{
     margin: 0 23px;
 }
-.footer-info{
+.footer-info {
     font-size: 12px;
     margin-bottom: 6px;
 }
+
+
+@media (max-width: 768px){
+    .container {
+        max-width: 690px;
+    }
+    .header-link {
+        font-size: var(--font-size-eighteen);
+    }
+    .about img{
+        height: 330px;
+        width: 380px;
+    }
+    .about-title {
+        font-size: 40px;
+    }
+    .about-text{
+        margin: 20px 0 40px 0;
+    }
+    .about-button {
+        padding: 18.5px 51.5px;
+    }
+    .about-right {
+        width: 330px;
+    }
+    .works-up-title {
+        font-size: 30px;
+    }
+    .work-example {
+        width: 290px;
+    }
+    .work-img{
+        width: 290px;
+    }
+    .work-buy{
+        padding: 20px 90px;
+        width: fit-content;
+    }
+    .new-collection-title h2{
+        width: 370px;
+        font-size: 30px;
+    }
+    .new-collection-button{
+        padding: 18px 36px;
+    }
+    .new-collection{
+        background-image: url(assets/pic_background_690.jpg);
+    }
+    .new-collection-title img{
+        height: 60px;
+    }
+    .team-text{
+        margin-top: 40px;
+        width: 690px; ;
+    }
+    .works-up-title {
+        margin-bottom: 30px;
+    }
+    .team-text p{
+        margin-bottom: 30px;
+    }
+    .contacts{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .contacts-phone{
+        margin: 0 0 8px 0;
+    }
+    .footer-right{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-social-info{
+        margin-right: 38px;
+    }
+}
+
+
+
+
+
