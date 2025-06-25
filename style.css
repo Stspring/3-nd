@@ -34,8 +34,8 @@ body, button {
         margin: 0 auto;
     }
     .header {
-        background-color: var(--light-green-color);
-        padding: 33px 0 32px 0;
+    background-color: var(--light-green-color);
+    padding: 33px 0 32px 0;
     }
     .header-link {
         font-size: var(--font-size-twenty);
@@ -88,9 +88,9 @@ body, button {
         display: flex;
     }
     .footer-links{
-        margin-right: 250px;
+        margin-right: 253px;
     }
-    .contacs-phone{
+    .contacts-phone{
         margin: 41px 0 8px 0;
     }
     .work-buy{
@@ -99,25 +99,25 @@ body, button {
     .new-collection{
         background-image: url(assets/pic_background\ \(1\).jpg);
     }
-    .header-button-mobver{
+    .header-button-mobile{
         display: none;
     }
     .header-flex {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        }
-    .works-up {
-        display: flex;
-        justify-content: space-between;
-        margin: 70px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     }
-    .works-secondver-button {
-        margin: 0 32px;
+    .works-up {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px auto 30px auto;
+    }
+    .works-second-button {
+    margin: 0 32px;
     }
     .new-collection-text p{
-        font-size: var(--font-size-eighteen);
-        font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-eighteen);
+    font-weight: var(--font-weight-medium);
     }
     .new-collection-button{
         margin-top: 40px;
@@ -127,42 +127,33 @@ body, button {
         padding: 70px 0;
     }
     .team{
-        margin: 70px auto;
+    margin: 70px auto;
     }
     .team-image img:nth-child(2){
-        margin: 0 30px;
+    margin: 0 30px;
     }
     .team-text p{
         font-size: var(--font-size-eighteen);
     }
-    .footer-mobile {
-        display: none;
+    .footer-row-mobile {
+    display: none;
     }
     .footer-link:nth-child(2){
-        margin: 0 60px;
+    margin: 0 60px;
     }  
     .footer-link h3{
-        color: var(--black-color);
-        font-size: var(--font-size-twenty);
-        font-weight: var(--font-weight-medium);
-        margin-bottom: 6px;
+    color: var(--black-color);
+    font-size: var(--font-size-twenty);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 6px;
     }
 }
-/* 
-.header {
-    background-color: var(--light-green-color);
-    padding: 33px 0 32px 0;
-} */
+
 .header-link {
     color: var(--black-color);
     text-decoration: none;
     margin-right: 60px;
     font-weight: var(--font-weight-medium);
-}
-.header-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 .header-button {
     border: none;
@@ -187,7 +178,6 @@ body, button {
 .about-text {
     color: var(--grey-color);
     font-size: var(--font-size-eighteen);
-
 }
 .about-button {
     font-family: var(--font);
@@ -203,11 +193,6 @@ body, button {
     color: var(--white-color);
 }
 
-/* .works-up {
-    display: flex;
-    justify-content: space-between;
-    margin: 70px auto 30px auto;
-} */
 .works-up-title {
     font-weight: var(--font-weight-medium);
     color: var(--black-color);
@@ -235,9 +220,6 @@ body, button {
 .works-button:hover{
     background-color: var(--dark-green-color);
     color:  var(--white-color);
-}
-.works-second-button {
-    margin: 0 32px;
 }
 
 .work-example {
@@ -275,7 +257,6 @@ body, button {
     font-weight: var(--font-weight-medium);
     font-size: var(--font-size-twenty);
     color: var(--green-color);
-
     background: none;
     margin-top: 20px;
     cursor: pointer;
@@ -294,7 +275,6 @@ body, button {
 
 .new-collection{
     color: var(--white-color);
-    padding: 70px 0;
     background-repeat: repeat-x ;
 }
 .new-collection-title{
@@ -307,16 +287,12 @@ body, button {
     margin-left: 20px;
 }
 .new-collection-text p{
-    font-size: var(--font-size-eighteen);
-    font-weight: var(--font-weight-medium);
     margin-bottom: 20px;
     line-height: 150%;
 }
 .new-collection-button{
-    margin-top: 40px;
     background-color: #EEDB6D;
     border: none;
-    font-size: var(--font-size-twenty);
     font-weight: var(--font-weight-medium);
     cursor: pointer;
 }
@@ -325,63 +301,55 @@ body, button {
     color: var(--white-color);
 }
 
-/* .team{
-    margin: 70px auto;
-} */
+
 .team-text p{
-    font-size: var(--font-size-eighteen);
     font-weight: var(--font-weight-medium);
     color: var(--black-color);
     line-height: 150%;
 }
-/* .team-image img:nth-child(2){
-    margin: 0 30px;
-} */
 
-footer{
+
+footer {
     background-color: var(--light-green-color);
     padding: 23px 0;
     font-size: var(--font-size-eighteen);
     font-weight: var(--font-weight-medium);
     color: var(--grey-color);
 }
-.contacs-phone{
+.contacts-phone{
     font-size: var(--font-size-twenty);
     color: var(--black-color);
 }
 .footer-links{
     display: flex;
 }
-/* .footer-link h3{
-    color: var(--black-color) ;
-    font-size: var(--font-size-twenty) ;
-    font-weight: var(--font-weight-medium);
-    margin-bottom: 6px;
-} */
 .footer-link a{
     text-decoration: none;
     color: var(--grey-color);
     display: block;
     margin-bottom: 6px;
 }
-/* .footer-link:nth-child(2){
-    margin: 0 60px;
-} */
-.footer-social{
-    margin-bottom: 10px;
-}
 .social-second{
     margin: 0 23px;
+}
+.footer-social{
+    margin-bottom: 10px;
 }
 .footer-info p{
     font-size: 12px;
     margin-bottom: 6px;
 }
-
-
 @media (min-width: 768px) and (max-width: 1439px){
     .container {
         max-width: 690px;
+    }
+    .container-header{
+        max-width: 690px;
+        margin: 0 auto;
+    }
+    .header {
+    background-color: var(--light-green-color);
+    padding: 33px 0 32px 0;
     }
     .header-link {
         font-size: var(--font-size-eighteen);
@@ -420,10 +388,10 @@ footer{
         font-size: 30px;
     }
     .new-collection-button{
-        padding: 18px 36px;
+        padding: 18.5px 36.5px;
     }
     .new-collection{
-        background-image: url(assets/pic_background_690.jpg);
+        background-image: url(assets/background_690.svg);
     }
     .new-collection-title img{
         height: 60px;
@@ -445,7 +413,6 @@ footer{
     }
     .contacts-phone{
         margin: 0 0 8px 0;
-        color: #2C2D35;
     }
     .footer-right{
         display: flex;
@@ -454,26 +421,25 @@ footer{
     .footer-social-info{
         margin-right: 38px;
     }
-    
-    .header-button-mobver{
+    .header-button-mobile{
         display: none;
     }
    .header-flex {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     }
     .works-up {
-        display: flex;
-        justify-content: space-between;
-        margin: 70px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 70px auto 30px auto;
     }
-    .works-secondver-button {
-        margin: 0 32px;
+    .works-second-button {
+    margin: 0 32px;
     }
     .new-collection-text p{
-        font-size: var(--font-size-eighteen);
-        font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-eighteen);
+    font-weight: var(--font-weight-medium);
     }
     .new-collection-button{
         margin-top: 40px;
@@ -483,29 +449,27 @@ footer{
         padding: 70px 0;
     }
     .team{
-        margin: 70px auto;
+    margin: 70px auto;
     }
     .team-image img:nth-child(2){
-        margin: 0 30px;
+    margin: 0 30px;
     }
     .team-text p{
         font-size: var(--font-size-eighteen);
     }
-    .footer-mobile {
-        display: none;
+    .footer-row-mobile {
+    display: none;
     }
     .footer-link:nth-child(2){
-        margin: 0 60px;
+    margin: 0 60px;
     }
     .footer-link h3{
-        color: var(--black-color);
-        font-size: var(--font-size-twenty);
-        font-weight: var(--font-weight-medium);
-        margin-bottom: 6px;
+    color: var(--black-color);
+    font-size: var(--font-size-twenty);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 6px;
     }
-} 
-
-
+}
 @media (min-width: 320px) and (max-width: 767px){
     .container {
         max-width: 290px;
@@ -516,6 +480,7 @@ footer{
     .logo{
         display: flex;
         justify-content: center;
+        padding: 20px;
     }
     .header-link{
         display: none;
@@ -710,21 +675,3 @@ footer{
     text-align: center;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
